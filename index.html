@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bem-vindo nova livraria do bairro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <!-- Cabeçalho -->
+    <header class="text-black py-3"></header>
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="m-0"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M146.67-160q-27 0-46.84-19.83Q80-199.67 80-226.67v-506.66q0-27 19.83-46.84Q119.67-800 146.67-800h666.66q27 0 46.84 19.83Q880-760.33 880-733.33v506.66q0 27-19.83 46.84Q840.33-160 813.33-160H146.67ZM480-454.67 146.67-670v443.33h666.66V-670L480-454.67Zm0-66.66 330.67-212H150l330 212ZM146.67-670v-63.33V-226.67-670Z"/></svg> <bem-vindo nova livraria </bem-vindo>
+        .</br> <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M146.67-160q-27 0-46.84-19.83Q80-199.67 80-226.67v-506.66q0-27 19.83-46.84Q119.67-800 146.67-800h666.66q27 0 46.84 19.83Q880-760.33 880-733.33v506.66q0 27-19.83 46.84Q840.33-160 813.33-160H146.67Zm0-66.67h666.66v-424H146.67v424ZM300-288l-46.67-46.67 103-104-104-104L300-589.33l150.67 150.66L300-288Zm186.67 2.67V-352h226.66v66.67H486.67Z"/></svg><font face="bem-vindo nova livraria"> bem-vindo nova livraria </p> </font></h1>
+        
+        <a href="#about" class="btn btn-primary btn-lg mt-2" >sobre novos livro</a>
+        <a href="#about1" class="btn btn-primary btn-lg mt-2" >valor de livro baratos inauguração da loja </a>
+        <a href="#contact" class="btn btn-primary btn-lg mt-2" >Contate-nos</a>
+        </br>   
+        
+        </div>
+        <p>______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+    </header>
+
+    <!--Sobre as Vagas-->
+    <section id="about" class="py-5">
+        <div class="container d-flex align-items-center">
+            <img  src="./encontre_seu_porque.jpg" alt="Imagem ilustrativa de bem-vindo a nova livraria " style="width: 250px; height: 300px;">
+            <img  src="./51UjO3YMafL.jpg" alt="Imagem ilustrativa de bem-vindo livro novos" style="width: 400px; height: 300px;" class="ms-3">
+            <div class="ms-4">
+                <h2 class="fw-bold">vamos mandar um e-mail para o livro na promoção na loja</h2>
+                <p class="lead">vc gosta de ler bora um indicações de leituras para  aprender para vida</p>
+            </br>
+                <a href="#contact" class="btn btn-primary btn-lg mt-3" >aperta aqui para ver mais o livros</a>
+            </div>
+       </div>
+    </section>
+
+    <!--Habilidades necessárias-->
+    <section id="about1" class="py-5">
+        <div class="container d-flex justify-content-between">
+            <div class="col-md-6">
+                <h2 class="card-tittle">vem para loja para inauguração</h2>
+                <ul class="lead">
+                    <li>vai ter livro de graça para vc e tambémcomida de graça</li> 
+                    <li>vai ser dia 12/04/2025</li>
+                    <li>o dia que vai ser inauguração a partir de 07:00;</li>
+                    <li>ta aberto loja inauguração</li>
+               
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2 class="card-tittle></h2>
+                <ul class="lead">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li> </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--contate-nos-->
+    <section id="contact" class="py-5">
+        <div>
+            <div class="container">
+                <h2 class="text-center fw-bold">Contate-nos:</h2>
+                <form class="mt-4">
+                    <div class="mb-3">
+                        <label class="texto-grande" for="name" class="form-label">Seu Nome completo:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Digite seu nome: " required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="texto-grande" for="email" class="form-label">Seu E-mail de Contato:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail:" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="texto-grande" for="message" class="form-label">Envie seu Curículo:</label>
+                        <form action="/upload" method="post" enctype="multipart/form-data">
+                            <input type="file" id="fileUpload" name="fileUpload">
+                            <br><br>
+                        <button type="submit" class="btn btn-primary w-100" href="#contact" class="btn btn-primary btn-lg mt-3"> 📩Enviar</button><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e3e3e3">  Enviar </button>
+                        </form>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Tem alguma melhoria a nos falar? Digite aqui:</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="m-0">&copy; 2025 George R. Boguchevski. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
