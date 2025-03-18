@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../sreyetl.css"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "curso"
+	}
+}
